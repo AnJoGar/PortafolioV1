@@ -31,13 +31,7 @@ const Projects = () => {
           githubLink="https://github.com/AnJoGar/SistemaAgenciaViajes.git"
 
         />
-         <ProjectCard
-          src="/libreria.png"
-          title="Sistema de reservación de vuelos"
-          description="Este sistema fue desarrollado en C# y Sql server el cual sera un sistema para el manejo de un recepcionista que se encargara de registrar la reserva de vuelos de los clientes"
-          githubLink="https://github.com/AnJoGar/SistemaAgenciaViajes.git"
-
-        />
+        
       </div>
     </div>
   );

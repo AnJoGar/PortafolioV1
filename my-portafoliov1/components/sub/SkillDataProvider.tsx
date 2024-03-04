@@ -11,10 +11,10 @@ interface Props {
     width: number;
     height: number;
     index: number;
-    knowledgePercentage: number;
+  //  knowledgePercentage: number;
 }
 
-const SkillDataProvider: React.FC<Props> = ({ src, width, height, index, knowledgePercentage} : Props) => {
+const SkillDataProvider: React.FC<Props> = ({ src, width, height, index,/* knowledgePercentage*/} : Props) => {
     const {ref, inView} = useInView({
         triggerOnce: true
     })
